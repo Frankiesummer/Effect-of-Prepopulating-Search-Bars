@@ -1,0 +1,33 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.Rprofile
+.Renviron
+*.Rproj
+
+# Data (do NOT commit raw or sensitive data)
+data/
+data/**
+*.dta
+*.csv
+*.xlsx
+*.rds
+*.rda
+*.RData
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+__pycache__/
+*.pyc
+
+# Logs and notebooks
+*.log
+.ipynb_checkpoints
+
+# Environment files
+.env
+.Rhistory
