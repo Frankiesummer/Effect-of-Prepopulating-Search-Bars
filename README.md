@@ -7,15 +7,6 @@
 4. [Project Structure and Analysis Flow](#4-project-structure-and-analysis-flow)
 5. [Prerequisites and Setup](#5-prerequisites-and-setup)
 6. [How to Run the Code](#6-how-to-run-the-code)
-# Effect of Prepopulating Search Bars
-
-## Table of Contents
-1. [Project Overview](#1-project-overview)
-2. [Experimental Design](#2-experimental-design)
-3. [Key Metrics and Findings](#3-key-metrics-and-findings)
-4. [Project Structure and Analysis Flow](#4-project-structure-and-analysis-flow)
-5. [Prerequisites and Setup](#5-prerequisites-and-setup)
-6. [How to Run the Code](#6-how-to-run-the-code)
 
 ---
 
@@ -169,5 +160,6 @@ What it does:
 - Checks that `Rscript` is available on `PATH`.
 - Runs the scripts in order: `analysis/01_table3_4_search_behavior.R`, `analysis/02_table5_conversion.R`, `analysis/03_table6_menu_usage.R`.
 - Stops and reports if any script returns an error.
+
 
 If you prefer to run scripts individually in `cmd.exe`, use the `Rscript` commands shown above.
