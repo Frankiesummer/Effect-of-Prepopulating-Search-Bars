@@ -58,11 +58,11 @@ This repository adopts a standardized R Project structure to ensure modularity a
 Effect of Prepopulating Search Bars/
 ├── .gitignore             # Files ignored by Git (e.g., .dta data)
 ├── README.md              # Project documentation
-├── <project>.Rproj        # RStudio Project file (opens project context)
+├── <project>.Rproj        # RStudio Project file
 ├── R/
 │   └── utils.R            # Helper functions for formatting coefficients and p-values
 ├── data/
-│   └── raw/               # Location for raw .dta data files (MUST be manually added)
+│   └── raw/               # Location for raw .dta data files
 └── analysis/              # Main analysis scripts
     ├── 01_table3_4_search_behavior.R  # Main ATE and Query Composition (Table 3 & 4)
     ├── 02_table5_conversion.R         # Conversion and Spending Analysis (Table 5)
@@ -163,3 +163,4 @@ What it does:
 
 
 If you prefer to run scripts individually in `cmd.exe`, use the `Rscript` commands shown above.
+
